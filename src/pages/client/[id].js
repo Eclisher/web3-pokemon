@@ -18,7 +18,7 @@ const ClientPokemonDetails = () => {
   }, [id]);
 
   return (
-    <div>
+    <div className={styles.pokemonDetails}>
       <h1 className={styles.title}>Pokémon Details (Client)</h1>
       {pokemonData && <PokemonDetails pokemon={pokemonData} />}
     </div>

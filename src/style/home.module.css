@@ -1,4 +1,3 @@
-/* styles/home.module.css */
 
 .container {
     min-height: 100vh;
@@ -21,18 +20,18 @@
   
   .title {
     font-size: 2rem;
-    margin-bottom: 1.5rem; /* Marge en bas du titre */
+    margin-bottom: 1.5rem;
   }
   
   .card {
-    text-align: center; /* Centrage du contenu */
+    text-align: center;
   }
   
   .image {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
-    margin-bottom: 1rem; /* Marge en bas de l'image */
+    margin-bottom: 1rem; 
   }
   
   .cardFooter {
