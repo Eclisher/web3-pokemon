@@ -1,6 +1,8 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+# when you get to run the server you'll need to put the "/client" or "/server" in the "/client" or "/server" box. 
 ## Getting Started
+
 
 First, run the development server:
 
