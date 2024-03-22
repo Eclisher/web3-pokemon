@@ -15,7 +15,7 @@ const ClientIndex = () => {
   }, []);
 
   return (
-    <div className={style.pokemonList}>
+    <div className={style.pokemon}>
       <h1 >Pokémon List (Client)</h1>
       <PokemonList pokemonList={pokemonList} router={router} />
     </div>

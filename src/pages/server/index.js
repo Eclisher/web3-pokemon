@@ -1,6 +1,7 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
 import PokemonList from './../../components/PokemonList';
+import style from'../../style/pokemon.module.css';
 
 const ClientIndex = () => {
   const router = useRouter();
@@ -14,8 +15,8 @@ const ClientIndex = () => {
   }, []);
 
   return (
-    <div>
-      <h1 >Pokémon List (Server)</h1>
+    <div className={style.pokemon}>
+      <h1  >Pokémon List (Server)</h1>
       <PokemonList pokemonList={pokemonList} router={router} />
     </div>
   );
